@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Menu de Navegação</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h1>Ilhas de Trindade e Martim Vaz (jurisdição do ES)</h1>
+  <div class="menu">
+    <a href="index.html">INÍCIO</a>
+    <a href="fauna.html">FAUNA</a>
+    <a href="flora.html">FLORA</a>
+    <a href="Questionario.html">QUESTIONARIO</a>
+  </div>
+  <h1>Questionário</h1>
+  <p>Conte um pouco sobre a cultura Oceânica:<p>
+  
+  <form action="/recebe.html" method="post">
+      <label For="Nomecompleto"> Nome completo: </label>
+      <br>
+      <input type="text" minlength="10" maxlength="100" id="Nomecompleto" name="Nomecompleto">
+      <br>
+      <label For="email"> email: </label>
+      <br>
+      <input type="email" id="email" name="email">
+      <br>
+      <label For="idade"> Idade: </label>
+      <br>
+      <input type="number" minlength="5" maxlength="125" id="idade" name="idade">
+      <br>
+      <label For="data"> Data de nascimento: </label>
+      <br>
+      <input type="date" minlength="01-01-2000" maxlength="31-12-2024" id="data" name="data">
+      <br>
+      <br>
+      <label for="estado">Estado onde reside:</label>
+      <select id="estado" name="estado" required>
+        <option value="" disabled selected>Selecione um estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+      <br>
+      <p> Você já ouviu falar sobre Cultura Oceânica? </p>
+      <select>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+      <br>
+      <p>Qual sua relação com o mar?</p>
+      <textarea rows="5" cols="50" id="mensagem" name="mensagem"> </textarea>
+      <br>
+      <p>Quais dessas ações você já praticou?</p>
+      <label><input type="checkbox" name="acoes" value="reutilizei_plasticos"> Reutilizei plásticos e embalagens para reduzir o lixo</label><br>
+      <label><input type="checkbox" name="acoes" value="evitei_descartar"> Evitei descartar lixo em praias, rios ou mares</label><br>
+      <label><input type="checkbox" name="acoes" value="sacolas_reutilizaveis"> Usei sacolas reutilizáveis ao fazer compras</label><br>
+      <label><input type="checkbox" name="acoes" value="campanhas_conscientizacao"> Participei de campanhas de conscientização sobre a vida marinha</label><br>
+      <label><input type="checkbox" name="acoes" value="meios_transporte"> Optei por meios de transporte menos poluentes</label><br>
+      <label><input type="checkbox" name="acoes" value="economizei_agua"> Economizei água no dia a dia</label><br>
+      <label><input type="checkbox" name="acoes" value="compartilhei_info"> Compartilhei informações sobre a proteção dos oceanos nas redes sociais</label><br>
+      <label><input type="checkbox" name="acoes" value="denunciei_praticas"> Denunciei ou evitei práticas prejudiciais ao meio ambiente marinho</label><br>
+      <label><input type="checkbox" name="acoes" value="apoiei_ongs"> Apoiei projetos ou ONGs ligadas à conservação marinha</label><br><br>
+      <br>
+      <p>sugestão de iniciativa oceânica</p>
+      <textarea rows="5" cols="50" id="mensagem" name="mensagem"> </textarea>
+      <br>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+ </form>
+</body>
+</html>
