@@ -2,7 +2,6 @@ Alguns campos que deveriam ser obrigatórios (nome, email, idade, relação com 
 
 Uso incorreto de minlength/maxlength em number e date.
 
-Você usou For em vez de for, o que é inválido em HTML.
 Alguns label não estavam associados corretamente.
 
 O código está indentado, mas há repetições de id/name (duas vezes mensagem) e pequenas inconsistências.
